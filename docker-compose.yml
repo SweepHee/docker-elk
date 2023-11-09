@@ -106,6 +106,14 @@ services:
       - elasticsearch
     restart: unless-stopped
 
+  cerebro:
+    image: yannart/cerebro:latest
+    ports:
+      - "9000:9000"
+    networks:
+      - elk
+
+
 networks:
   elk:
     driver: bridge
