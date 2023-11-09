@@ -14,6 +14,7 @@ Based on the [official Docker images][elastic-docker] from Elastic:
 * [Elasticsearch](https://github.com/elastic/elasticsearch/tree/main/distribution/docker)
 * [Logstash](https://github.com/elastic/logstash/tree/main/docker)
 * [Kibana](https://github.com/elastic/kibana/tree/main/src/dev/build/tasks/os_packages/docker_generator)
+* [cerebro]() <small style="background-color:yellowgreen; color: black; border-radius:3px; padding: 0 2px;">new</small>
 
 Other available stack variants:
 
